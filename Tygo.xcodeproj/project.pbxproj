@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		218ECC35287DBA4A00111F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218ECC34287DBA4A00111F18 /* AppDelegate.swift */; };
+		218ECC37287DBA4A00111F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218ECC36287DBA4A00111F18 /* SceneDelegate.swift */; };
+		218ECC39287DBA4A00111F18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218ECC38287DBA4A00111F18 /* ViewController.swift */; };
+		218ECC3C287DBA4A00111F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218ECC3A287DBA4A00111F18 /* Main.storyboard */; };
+		218ECC3F287DBA4A00111F18 /* Tygo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 218ECC3D287DBA4A00111F18 /* Tygo.xcdatamodeld */; };
+		218ECC41287DBA4B00111F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218ECC40287DBA4B00111F18 /* Assets.xcassets */; };
+		218ECC44287DBA4B00111F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218ECC42287DBA4B00111F18 /* LaunchScreen.storyboard */; };
+		218ECC4F287DBA4B00111F18 /* TygoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218ECC4E287DBA4B00111F18 /* TygoTests.swift */; };
+		218ECC59287DBA4B00111F18 /* TygoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218ECC58287DBA4B00111F18 /* TygoUITests.swift */; };
+		218ECC5B287DBA4B00111F18 /* TygoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218ECC5A287DBA4B00111F18 /* TygoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		218ECC4B287DBA4B00111F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 218ECC29287DBA4A00111F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218ECC30287DBA4A00111F18;
+			remoteInfo = Tygo;
+		};
+		218ECC55287DBA4B00111F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 218ECC29287DBA4A00111F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218ECC30287DBA4A00111F18;
+			remoteInfo = Tygo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		218ECC31287DBA4A00111F18 /* Tygo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tygo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		218ECC34287DBA4A00111F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		218ECC36287DBA4A00111F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		218ECC38287DBA4A00111F18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		218ECC3B287DBA4A00111F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		218ECC3E287DBA4A00111F18 /* Tygo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tygo.xcdatamodel; sourceTree = "<group>"; };
+		218ECC40287DBA4B00111F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		218ECC43287DBA4B00111F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		218ECC45287DBA4B00111F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		218ECC4A287DBA4B00111F18 /* TygoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TygoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		218ECC4E287DBA4B00111F18 /* TygoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TygoTests.swift; sourceTree = "<group>"; };
+		218ECC54287DBA4B00111F18 /* TygoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TygoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		218ECC58287DBA4B00111F18 /* TygoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TygoUITests.swift; sourceTree = "<group>"; };
+		218ECC5A287DBA4B00111F18 /* TygoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TygoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		218ECC2E287DBA4A00111F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218ECC47287DBA4B00111F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218ECC51287DBA4B00111F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		218ECC28287DBA4A00111F18 = {
+			isa = PBXGroup;
+			children = (
+				218ECC33287DBA4A00111F18 /* Tygo */,
+				218ECC4D287DBA4B00111F18 /* TygoTests */,
+				218ECC57287DBA4B00111F18 /* TygoUITests */,
+				218ECC32287DBA4A00111F18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		218ECC32287DBA4A00111F18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				218ECC31287DBA4A00111F18 /* Tygo.app */,
+				218ECC4A287DBA4B00111F18 /* TygoTests.xctest */,
+				218ECC54287DBA4B00111F18 /* TygoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		218ECC33287DBA4A00111F18 /* Tygo */ = {
+			isa = PBXGroup;
+			children = (
+				218ECC34287DBA4A00111F18 /* AppDelegate.swift */,
+				218ECC36287DBA4A00111F18 /* SceneDelegate.swift */,
+				218ECC38287DBA4A00111F18 /* ViewController.swift */,
+				218ECC3A287DBA4A00111F18 /* Main.storyboard */,
+				218ECC40287DBA4B00111F18 /* Assets.xcassets */,
+				218ECC42287DBA4B00111F18 /* LaunchScreen.storyboard */,
+				218ECC45287DBA4B00111F18 /* Info.plist */,
+				218ECC3D287DBA4A00111F18 /* Tygo.xcdatamodeld */,
+			);
+			path = Tygo;
+			sourceTree = "<group>";
+		};
+		218ECC4D287DBA4B00111F18 /* TygoTests */ = {
+			isa = PBXGroup;
+			children = (
+				218ECC4E287DBA4B00111F18 /* TygoTests.swift */,
+			);
+			path = TygoTests;
+			sourceTree = "<group>";
+		};
+		218ECC57287DBA4B00111F18 /* TygoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				218ECC58287DBA4B00111F18 /* TygoUITests.swift */,
+				218ECC5A287DBA4B00111F18 /* TygoUITestsLaunchTests.swift */,
+			);
+			path = TygoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		218ECC30287DBA4A00111F18 /* Tygo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218ECC5E287DBA4B00111F18 /* Build configuration list for PBXNativeTarget "Tygo" */;
+			buildPhases = (
+				218ECC2D287DBA4A00111F18 /* Sources */,
+				218ECC2E287DBA4A00111F18 /* Frameworks */,
+				218ECC2F287DBA4A00111F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tygo;
+			productName = Tygo;
+			productReference = 218ECC31287DBA4A00111F18 /* Tygo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		218ECC49287DBA4B00111F18 /* TygoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218ECC61287DBA4B00111F18 /* Build configuration list for PBXNativeTarget "TygoTests" */;
+			buildPhases = (
+				218ECC46287DBA4B00111F18 /* Sources */,
+				218ECC47287DBA4B00111F18 /* Frameworks */,
+				218ECC48287DBA4B00111F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218ECC4C287DBA4B00111F18 /* PBXTargetDependency */,
+			);
+			name = TygoTests;
+			productName = TygoTests;
+			productReference = 218ECC4A287DBA4B00111F18 /* TygoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		218ECC53287DBA4B00111F18 /* TygoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218ECC64287DBA4B00111F18 /* Build configuration list for PBXNativeTarget "TygoUITests" */;
+			buildPhases = (
+				218ECC50287DBA4B00111F18 /* Sources */,
+				218ECC51287DBA4B00111F18 /* Frameworks */,
+				218ECC52287DBA4B00111F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218ECC56287DBA4B00111F18 /* PBXTargetDependency */,
+			);
+			name = TygoUITests;
+			productName = TygoUITests;
+			productReference = 218ECC54287DBA4B00111F18 /* TygoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		218ECC29287DBA4A00111F18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					218ECC30287DBA4A00111F18 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					218ECC49287DBA4B00111F18 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 218ECC30287DBA4A00111F18;
+					};
+					218ECC53287DBA4B00111F18 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 218ECC30287DBA4A00111F18;
+					};
+				};
+			};
+			buildConfigurationList = 218ECC2C287DBA4A00111F18 /* Build configuration list for PBXProject "Tygo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 218ECC28287DBA4A00111F18;
+			productRefGroup = 218ECC32287DBA4A00111F18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				218ECC30287DBA4A00111F18 /* Tygo */,
+				218ECC49287DBA4B00111F18 /* TygoTests */,
+				218ECC53287DBA4B00111F18 /* TygoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		218ECC2F287DBA4A00111F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218ECC44287DBA4B00111F18 /* LaunchScreen.storyboard in Resources */,
+				218ECC41287DBA4B00111F18 /* Assets.xcassets in Resources */,
+				218ECC3C287DBA4A00111F18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218ECC48287DBA4B00111F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218ECC52287DBA4B00111F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		218ECC2D287DBA4A00111F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218ECC3F287DBA4A00111F18 /* Tygo.xcdatamodeld in Sources */,
+				218ECC39287DBA4A00111F18 /* ViewController.swift in Sources */,
+				218ECC35287DBA4A00111F18 /* AppDelegate.swift in Sources */,
+				218ECC37287DBA4A00111F18 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218ECC46287DBA4B00111F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218ECC4F287DBA4B00111F18 /* TygoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218ECC50287DBA4B00111F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218ECC59287DBA4B00111F18 /* TygoUITests.swift in Sources */,
+				218ECC5B287DBA4B00111F18 /* TygoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		218ECC4C287DBA4B00111F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218ECC30287DBA4A00111F18 /* Tygo */;
+			targetProxy = 218ECC4B287DBA4B00111F18 /* PBXContainerItemProxy */;
+		};
+		218ECC56287DBA4B00111F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218ECC30287DBA4A00111F18 /* Tygo */;
+			targetProxy = 218ECC55287DBA4B00111F18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		218ECC3A287DBA4A00111F18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				218ECC3B287DBA4A00111F18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		218ECC42287DBA4B00111F18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				218ECC43287DBA4B00111F18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		218ECC5C287DBA4B00111F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		218ECC5D287DBA4B00111F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		218ECC5F287DBA4B00111F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QYT6GJB4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tygo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tygo.Tygo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		218ECC60287DBA4B00111F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QYT6GJB4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tygo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tygo.Tygo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		218ECC62287DBA4B00111F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QYT6GJB4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tygo.TygoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tygo.app/Tygo";
+			};
+			name = Debug;
+		};
+		218ECC63287DBA4B00111F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QYT6GJB4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tygo.TygoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tygo.app/Tygo";
+			};
+			name = Release;
+		};
+		218ECC65287DBA4B00111F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QYT6GJB4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tygo.TygoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tygo;
+			};
+			name = Debug;
+		};
+		218ECC66287DBA4B00111F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QYT6GJB4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tygo.TygoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tygo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		218ECC2C287DBA4A00111F18 /* Build configuration list for PBXProject "Tygo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218ECC5C287DBA4B00111F18 /* Debug */,
+				218ECC5D287DBA4B00111F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218ECC5E287DBA4B00111F18 /* Build configuration list for PBXNativeTarget "Tygo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218ECC5F287DBA4B00111F18 /* Debug */,
+				218ECC60287DBA4B00111F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218ECC61287DBA4B00111F18 /* Build configuration list for PBXNativeTarget "TygoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218ECC62287DBA4B00111F18 /* Debug */,
+				218ECC63287DBA4B00111F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218ECC64287DBA4B00111F18 /* Build configuration list for PBXNativeTarget "TygoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218ECC65287DBA4B00111F18 /* Debug */,
+				218ECC66287DBA4B00111F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		218ECC3D287DBA4A00111F18 /* Tygo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				218ECC3E287DBA4A00111F18 /* Tygo.xcdatamodel */,
+			);
+			currentVersion = 218ECC3E287DBA4A00111F18 /* Tygo.xcdatamodel */;
+			path = Tygo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 218ECC29287DBA4A00111F18 /* Project object */;
+}
